@@ -41,12 +41,14 @@
                 </div>
 
                 <div class="relative border-l-2 border-blue-500/30 ml-4 space-y-12">
-                    <div class="relative pl-10">
+                     <div class="relative pl-10">
                         <div class="absolute -left-[11px] top-0 w-5 h-5 bg-blue-500 rounded-full border-4 border-slate-900"></div>
                         <h3 class="text-xl font-semibold flex items-center gap-2">
-                            <i data-lucide="users" class="w-5 h-5 text-blue-400"></i> Interview
+                            <i data-lucide="users" class="w-5 h-5 text-blue-400"></i> Webinar
                         </h3>
-                        <p class="text-slate-400 mt-2">A 1-on-1 discovery session to assess your teaching style, math proficiency, and communication skills.</p>
+                        <p class="text-slate-400 mt-2">Intoroduction to Jyamiti Math learning System and Tutor training program.
+                            What we are!what we offer!what we need!
+                        </p>
                     </div>
 
                     <div class="relative pl-10">
@@ -56,7 +58,13 @@
                         </h3>
                         <p class="text-slate-400 mt-2">Intensive 4-week workshop covering advanced pedagogy, Jyamiti digital tools, and student psychology.</p>
                     </div>
-
+                       <div class="relative pl-10">
+                        <div class="absolute -left-[11px] top-0 w-5 h-5 bg-blue-500 rounded-full border-4 border-slate-900"></div>
+                        <h3 class="text-xl font-semibold flex items-center gap-2">
+                            <i data-lucide="users" class="w-5 h-5 text-blue-400"></i> Interview
+                        </h3>
+                        <p class="text-slate-400 mt-2">A 1-on-1 discovery session to assess your teaching style, math proficiency, and communication skills.</p>
+                    </div>
                     <div class="relative pl-10">
                         <div class="absolute -left-[11px] top-0 w-5 h-5 bg-blue-500 rounded-full border-4 border-slate-900"></div>
                         <h3 class="text-xl font-semibold flex items-center gap-2">
@@ -74,7 +82,7 @@
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div>
                             <label class="block text-sm text-slate-400 mb-1">Full Name</label>
-                            <input type="text" name="name" required class="w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-2 focus:outline-none focus:border-blue-500">
+                            <input type="text" name="name" required class="w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-2 focus:outline-none focus:border-blue-500" >
                         </div>
                         <div>
                             <label class="block text-sm text-slate-400 mb-1">Gender</label>
@@ -85,7 +93,10 @@
                             </select>
                         </div>
                     </div>
-
+                    <div>
+                        <label class="block text-sm text-slate-400 mb-1">Email address</label>
+                        <input type="email" name="mail" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-2 focus:outline-none focus:border-blue-500">
+                    </div>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div>
                             <label class="block text-sm text-slate-400 mb-1">Qualification</label>
@@ -102,11 +113,16 @@
                         <input type="number" name="experience" id="expInput" min="0" required class="w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-2 focus:outline-none focus:border-blue-500">
                     </div>
 
+                    
+
                     <div id="prevOrgField" class="hidden">
-                        <label class="block text-sm text-slate-400 mb-1">Previous Organisation</label>
+                        <label class="block text-sm text-slate-400 mb-1">Current/Previous Organisation</label>
                         <input type="text" name="prev_organisation" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-2 focus:outline-none focus:border-blue-500">
                     </div>
-
+                     <div>
+                            <label class="block text-sm text-slate-400 mb-1">WhatsApp number</label>
+                            <input type="text" name="phone" required class="w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-2 focus:outline-none focus:border-blue-500">
+                        </div>
                     <div class="space-y-3 pt-2">
                         <label class="flex items-center gap-3 cursor-pointer">
                             <input type="checkbox" name="broadband" class="w-4 h-4 rounded border-slate-700 bg-slate-800 text-blue-500">
