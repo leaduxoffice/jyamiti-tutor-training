@@ -11,10 +11,8 @@ const HomePage =()=>{
         <div className="w-full px-4 sm:px-6 lg:px-12 xl:px-16">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 xl:gap-20 items-center">
                 
-              
-
                 {/* Right Column: Introduction Text */}
-                <div className="order-2 lg:order-1 px-2 sm:px-4 lg:px-8 xl:px-12">
+                <div className="order-1 lg:order-1 px-2 sm:px-4 lg:px-8 xl:px-12">
                     <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl font-bold mb-6 lg:mb-8">Jyamiti <span className="gradient-text">Math Learning</span></h1>
                     <p className="text-lg md:text-xl lg:text-xl xl:text-2xl text-slate-400 mb-8 lg:mb-10 leading-relaxed">
                         Shape the future of mathematics. Join our elite training program designed to turn passionate educators into world-class math mentors. 
@@ -32,12 +30,12 @@ const HomePage =()=>{
                 </div>
 
                   {/* Left Column: YouTube Video */}
-                <div className="order-1 lg:order-2 ">
+                <div className="order-2 lg:order-2 ">
                     <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl">
                         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-purple-600/20 -z-10"></div>
                         <iframe
                             className="w-full h-full"
-                            src="https://www.youtube.com/embed/d29WXSY4tNc" // Replace with your actual YouTube video ID
+                            src="https://www.youtube.com/embed/4Qj9YJjPjOM" // Replace with your actual YouTube video ID
                             title="Jyamiti Math Learning Platform Demo"
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
