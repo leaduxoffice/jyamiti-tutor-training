@@ -15,7 +15,7 @@ function App() {
         {/* Left side - Logo with consistent margin */}
         <div className="flex items-center">
            <Link to="/aboutus">
-            <div className="flex items-center justify-center h-14 w-auto lg:h-16 rounded-2xl overflow-hidden bg-white backdrop-blur-lg p-3 shadow-xl ml-4 lg:ml-6"> {/* Added ml-4 lg:ml-6 */}
+            <div className="flex items-center justify-center h-14 w-auto lg:h-16 rounded-2xl overflow-hidden bg-white backdrop-blur-lg p-1 shadow-xl ml-4 lg:ml-6"> {/* Added ml-4 lg:ml-6 */}
                 <img 
                     src="/Jyamiti Horizo.png"
                     alt="Jyamiti Logo"
@@ -25,10 +25,7 @@ function App() {
             </Link>
         </div>
         
-        {/* Right side text */}
-        <div className="text-white font-semibold text-lg lg:text-xl pr-4 lg:pr-8">
-            Teacher Trainer Scheme
-        </div>
+       
     </div>
 </nav>
             <div className="min-h-screen bg-slate-900 text-white">
